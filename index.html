@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="side">
+    <label for="size">Size: <span id="sizeSpan">10</span></label><br><input type="range" id="size" min="5" max="50" value="10"><br>
+    <label for="rows">Columns: <span id="rowSpan">50</span></label><br><input type="range" id="rows" min="5" max="100" value="50"><br>
+    <label for="cols">Rows: <span id="colSpan">50</span></label><br><input type="range" id="cols" min="5" max="100" value="50"><br>
+    <label for="speed">Speed: <span id="speedSpan">900</span></label><br><input type="range" id="speed" min="1" max="1000" value="900"><br>
+    <button id="start">New Maze</button>
+</div>
+<div id="target"></div>
+<script src="main.js"></script>
+</body>
+</html>
